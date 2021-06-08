@@ -1,0 +1,54 @@
+body{
+    color:#77AADD;
+    background-color:white;
+}
+#haut{
+    margin:90%;
+    height:6%;
+}
+
+#gauche{
+     float:left;
+     width:18%;
+     background-color:white;
+     height:100%;}
+
+#droite{
+    float:left;
+    width:80%;
+    color:white;
+    background-color:#77AADD;
+    padding-left:20px;
+    display: inline-block;
+}
+
+#bas{
+    margin:10em 2em 2em 2em;
+    clear:left;
+    background-color:#77AADD;
+    color:white;
+    height:80%;
+    padding-left:20px;
+    padding-bottom:20px;
+}
+
+#formPraticien label, #formMedicament label {
+    display:inline-block;
+    width:20%
+}
+
+#formPraticien input, #formMedicament input, #formMedicament textarea{
+    margin-top:10px;
+}
+
+label,textarea{
+    display:inline-block;
+    vertical-align:middle;
+}
+
+#infosUtil{
+    font-family:Verdana,sans-serif;
+    font-size:0.8em;
+    width:95%;
+    background-color: green;
+}
